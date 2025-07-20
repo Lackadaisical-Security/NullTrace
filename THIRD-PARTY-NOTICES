@@ -1,0 +1,216 @@
+THIRD-PARTY SOFTWARE NOTICES AND INFORMATION
+===============================================
+
+NullTrace incorporates components from the projects listed below. Lackadaisical Security acknowledges the contributions of these projects and their respective communities.
+
+## Microsoft Windows Driver Kit (WDK)
+
+**Project**: Windows Driver Kit  
+**Version**: 10.0.22621+  
+**Copyright**: © Microsoft Corporation  
+**License**: Microsoft Software License Terms  
+**Usage**: KMDF headers, libraries, and build tools  
+
+**License Summary**: 
+The Windows Driver Kit is provided by Microsoft under their standard software license terms. NullTrace uses only the public APIs and development tools provided in the WDK.
+
+**Website**: https://docs.microsoft.com/en-us/windows-hardware/drivers/
+
+---
+
+## Microsoft Windows SDK
+
+**Project**: Windows Software Development Kit  
+**Version**: 10.0.22621+  
+**Copyright**: © Microsoft Corporation  
+**License**: Microsoft Software License Terms  
+**Usage**: Windows API headers and system definitions  
+
+**License Summary**: 
+The Windows SDK provides the necessary headers and tools for Windows development. NullTrace uses standard Windows APIs as documented in the SDK.
+
+**Website**: https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/
+
+---
+
+## Visual Studio Build Tools
+
+**Project**: Microsoft Visual Studio  
+**Version**: 2019/2022  
+**Copyright**: © Microsoft Corporation  
+**License**: Microsoft Software License Terms  
+**Usage**: C/C++ compiler and MSBuild system  
+
+**License Summary**: 
+Visual Studio build tools are used for compilation and project management. NullTrace project files are compatible with Visual Studio Community (free) edition.
+
+**Website**: https://visualstudio.microsoft.com/
+
+---
+
+## KMDF Framework
+
+**Project**: Kernel Mode Driver Framework  
+**Version**: 1.33  
+**Copyright**: © Microsoft Corporation  
+**License**: Microsoft Software License Terms  
+**Usage**: Kernel driver framework and runtime  
+
+**License Summary**: 
+KMDF is Microsoft's recommended framework for kernel mode driver development. NullTrace is built using KMDF APIs and links against KMDF runtime libraries.
+
+**Website**: https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/
+
+---
+
+## Windows Driver Samples
+
+**Project**: Windows Driver Samples Repository  
+**Copyright**: © Microsoft Corporation  
+**License**: MIT License  
+**Usage**: Reference implementation patterns and best practices  
+
+**License Summary**: 
+Some code patterns and driver architecture concepts were derived from Microsoft's open source driver samples repository, which is available under the MIT license.
+
+**Website**: https://github.com/Microsoft/Windows-driver-samples
+
+**MIT License Text**:
+```
+Copyright (c) Microsoft Corporation
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+---
+
+## OSR Online Resources
+
+**Project**: OSR Open Systems Resources  
+**Copyright**: © OSR Open Systems Resources, Inc.  
+**License**: Educational/Reference Use  
+**Usage**: Driver development guidance and best practices  
+
+**License Summary**: 
+OSR Online provides extensive documentation and examples for Windows driver development. NullTrace incorporates best practices and patterns documented in OSR resources.
+
+**Website**: https://www.osronline.com/
+
+---
+
+## Windows Internals Documentation
+
+**Project**: Windows Internals Book Series  
+**Authors**: Mark Russinovich, David Solomon, Alex Ionescu  
+**Publisher**: Microsoft Press  
+**License**: Educational/Reference Use  
+**Usage**: System architecture understanding and implementation guidance  
+
+**License Summary**: 
+Windows Internals books provide detailed documentation of Windows system internals. NullTrace implementation follows documented system behavior and best practices.
+
+---
+
+## Code Analysis Tools
+
+### Static Analysis
+- **PREfast**: Microsoft static analysis tool (part of WDK)
+- **Code Analysis**: Visual Studio built-in analysis
+- **Driver Verifier**: Microsoft driver testing tool
+
+### Dynamic Analysis  
+- **Application Verifier**: Microsoft application testing tool
+- **Debug Tools**: Windows Debugging Tools (WinDbg, etc.)
+
+---
+
+## Build Dependencies
+
+### Required Components
+1. **Windows Driver Kit (WDK)**: Core requirement
+2. **Windows SDK**: System headers and libraries  
+3. **Visual Studio**: Compiler and build system
+4. **MSBuild**: Project build engine
+
+### Optional Tools
+1. **Inf2Cat**: Catalog file generation
+2. **SignTool**: Code signing utility
+3. **PnPUtil**: Driver package management
+4. **SC**: Service control utility
+
+---
+
+## Compatibility Notes
+
+### Windows Versions
+- **Windows 10**: Versions 1903 and later
+- **Windows 11**: All versions
+- **Windows Server**: 2019 and later
+
+### Architecture Support
+- **x64**: Primary target architecture
+- **ARM64**: Future consideration
+- **x86**: Not supported
+
+---
+
+## Licensing Compliance
+
+### Microsoft Components
+All Microsoft components are used in accordance with their respective license terms and are properly attributed. No Microsoft proprietary code is redistributed.
+
+### Open Source Components
+All open source components maintain their original license terms and copyright notices. Any modifications are clearly marked and documented.
+
+### Export Control
+This software may be subject to U.S. export control regulations. Users are responsible for compliance with applicable export control laws.
+
+---
+
+## Attribution Requirements
+
+When redistributing NullTrace or derivative works:
+
+1. **Include this file**: Maintain third-party notices
+2. **Preserve copyrights**: Keep all copyright notices intact
+3. **License compliance**: Ensure compliance with all component licenses
+4. **Attribution**: Provide appropriate attribution to Lackadaisical Security
+
+---
+
+## Updates and Maintenance
+
+This file is updated whenever:
+- New third-party components are added
+- Existing components are updated
+- License terms change
+- Attribution requirements change
+
+**Last Updated**: July 2, 2025  
+**Version**: 1.0.0  
+
+---
+
+**Contact Information**
+
+For questions about third-party licenses or attribution:
+- **Email**: legal@lackadaisical-security.com
+- **Website**: https://lackadaisical-security.com/legal
+
+© 2025 Lackadaisical Security. All rights reserved. 
