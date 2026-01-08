@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![NullTrace Logo](https://via.placeholder.com/200x100/0A0E27/FFFFFF?text=NullTrace)
+![NullTrace Logo](https://github.com/Lackadaisical-Security/NullTrace/blob/main/icon-nulltrace-1.png)
 
 **Silent File System Interception for Windows**
 
@@ -297,5 +297,6 @@ This software is intended for legitimate security research, penetration testing,
 **[Lackadaisical Security](https://lackadaisical-security.com)** - *Professional Security Solutions*
 
 *Advancing cybersecurity through innovative research and development*
+
 
 </div> 
